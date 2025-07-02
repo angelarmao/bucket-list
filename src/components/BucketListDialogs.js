@@ -52,10 +52,12 @@ const BucketListDialogs = ({
               }
               disabled={loading}
               sx={{ mb: 2 }}
-              inputProps={{
-                maxLength: 100,
-                pattern: ".*",
-                inputMode: "text",
+              slotProps={{
+                htmlInput: {
+                  maxLength: 100,
+                  pattern: ".*",
+                  inputMode: "text",
+                },
               }}
             />
             <TextField

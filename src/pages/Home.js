@@ -45,7 +45,6 @@ const Home = () => {
   const {
     getGroups,
     getBucketListItems,
-    getUsersByIds,
     createGroup,
     joinGroupByCode,
     updateGroup,
